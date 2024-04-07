@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") La gestión financiera y ejecución presupuestal contribuyen a caminos de planeación, predictibilidad y factibilidad que aportarán a la consolidación de la organización en el sector al que pertenece. El siguiente esquema presenta todas aquellas temáticas desarrolladas y esenciales en esta área empresarial.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")

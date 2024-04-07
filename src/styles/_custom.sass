@@ -1,14 +1,25 @@
 .banner-principal-decorativo
-  &-1
+  &-0
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 33%
+    right: 37%
+    width: 30%
+  &-1
+    animation: float1 3.2s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 88%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 35%
+    right: 15%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 76%
+    right: 70%
 
 
 @keyframes float1
@@ -16,3 +27,130 @@
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+.tarjeta.color-acento-botones
+  background-color: lighten($color-acento-botones, 35%)
+
+.tarjeta.color-terciario
+  background-color: $color-terciario
+
+.cajon.color-secundario
+  background-color: lighten($color-secundario, 67%)
+
+.tarjeta.color-primario,.cajon.color-primario
+  background-color: lighten($color-primario, 67%)
+  p,.h5,ul,li,i,em,b,h4
+    color: #000 !important
+
+.is-modal
+  width: 34px
+  top: -7px
+  position: relative
+  left: -16px
+
+.ismodal2
+  .img-infografica-b__modal
+    background-color: #FEF5E5
+  .fas.fa-times,p
+    color: $black !important
+
+.img-infografica__card
+  width: 500px
+
+h4.color-primario
+  color: $color-primario
+
+.tarjeta--boton
+  background-color: #FEF5E5
+
+.tarjeta--boton.color-acento-contenido:hover
+  background-color: $color-adicional-2
+
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #B9DFB7
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--last
+  &::before 
+    background-color: #B9DFB7
+.crd--first, .crd--third
+  &::before 
+    background-color: #D2E1F1 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+    
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+///// utilidades --------------------------------------
+.img65
+  width: 65px  
+.img90
+  width: 90px  
+.img250
+  width: 250px  
+.brd--rad
+  border-radius: 20px
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #B0C0D2
+.b--rad
+  border-radius: 0px 0px 20px 20px 
+.bg--gradientBlue        
+  background: linear-gradient(0deg, rgba(215,236,252,1) 0%, rgba(239,246,252,1) 100%)
+
+.dialogo.color-primario .dialogo__words__word
+  color: #3c7792 !important

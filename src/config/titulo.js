@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE_DEL_COMPONENTE_FORMATIVO'
+module.exports = 'Administración financiera y ejecución presupuestal'
