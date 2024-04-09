@@ -227,7 +227,7 @@
               h3.mb-1 Secuencia del proceso de planificación financiera basado en estrategias
               p.text-small En el siguiente gráfico se evidencia cómo cada estrategia planteada en la planificación financiera tiene un resultado, producto o impacto en los documentos que permiten planificar de forma estructurada los diferentes componentes o puntos críticos en cuanto a finanzas en la organización.  
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_EstrategiasPlanificacion.pdf')" target="_blank")
                 span Ver gráfico
                 i.fas.fa-file-download
 
@@ -429,7 +429,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Estado de la situación financiera
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_EstadoSituacionFinanciera.pdf')" target="_blank")
                     span Ver PDF
                     i.fas.fa-file-download
         .tarjeta.color-secundario.p-3.mb-3
@@ -441,7 +441,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Estado de resultados
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_EstadoResultados.pdf')" target="_blank")
                     span Ver PDF
                     i.fas.fa-file-download
         .tarjeta.color-secundario.p-3
@@ -453,7 +453,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Flujo de caja o de efectivo
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_FlujoCajaEfectivo.pdf')" target="_blank")
                     span Ver PDF
                     i.fas.fa-file-download
 
