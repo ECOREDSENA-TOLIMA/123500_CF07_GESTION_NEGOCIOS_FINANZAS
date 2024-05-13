@@ -31,8 +31,8 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura X. </b> <i>Características de la empresa</i>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Modelo de ejecución financiera</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig_5a.svg', alt='Grafico que explica el proceso del modelo de ejecución financiera, el cual consta de las siguientes etapas y sus procesos característicos son: Fase I.1. Planificación de actividad y presupuesto: definición de POAS. Fase I.2. Planificación financiera: elaboración de flujos financieros. Fase II. Ejecución y análisis: elaboración de estados y análisis. Fase III. Control y decisión: monitoreo y gestión de la decisión.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig_5b.svg', alt='Grafico que explica el proceso del modelo de ejecución financiera, el cual consta de las siguientes etapas y sus procesos característicos son: Fase I.1. Planificación de actividad y presupuesto: definición de POAS. Fase I.2. Planificación financiera: elaboración de flujos financieros. Fase II. Ejecución y análisis: elaboración de estados y análisis. Fase III. Control y decisión: monitoreo y gestión de la decisión.') 
@@ -46,8 +46,8 @@
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura X. </b> <i>Características de la empresa</i>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 6. </b> <i>Objetivos de la gestión financiera</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig_6a.svg', alt='Gráfico que relaciona los objetivos que se deben tener en cuenta frente a los objetivos de la gestión financiera.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig_6b.svg', alt='Gráfico que relaciona los objetivos que se deben tener en cuenta frente a los objetivos de la gestión financiera.') 
@@ -56,8 +56,8 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-12
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura X. </b> <i>Características de la empresa</i>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 7. </b> <i> Objetivos y etapas de la gestión financiera</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig_7a.svg', alt='Imagen que menciona las funciones de la gestión financiera a tener presente de acuerdo a sus objetivos y etapas.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig_7b.svg', alt='Imagen que menciona las funciones de la gestión financiera a tener presente de acuerdo a sus objetivos y etapas.') 
@@ -130,21 +130,21 @@
     p.mb-5(data-aos="fade-right") Entre las políticas más reconocidas y que deben aplicarse en toda organización se encuentran:
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-down")
-      .col-12.col-md-11.col-lg-10.d-none.d-sm-none.d-md-block
+      .col-12.col-md-10.col-lg-8.d-none.d-sm-none.d-md-block
         ImagenInfograficaB.color-acento-botones.ismodal2.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img_6.svg', alt='')
-          div(x="55%" y="44%" numero="+" tooltip="Clic para abrir recurso")
+          div(x="56%" y="47%" numero="+" tooltip="Clic para abrir recurso")
             p #[b Política de obtención de recursos financieros]
             p La empresa obtiene sus recursos mediante el desempeño en la actividad económica por la cual fue creada y todas las demás actividades relacionadas que provean los considerados recursos propios. Asimismo, se considera una fuente la estrategia de endeudamiento a través de la cual invertir en un proyecto de inversión con el objeto de obtener nuevos recursos, de invertir en crecimiento de la organización y la eficiente administración de los excedentes.
-          div(x="56%" y="54%" numero="+" tooltip="Clic para abrir recurso")
+          div(x="56%" y="52.5%" numero="+" tooltip="Clic para abrir recurso")
             p #[b Política de planificación de recursos financieros]
             p Se fija como política el proveer los recursos necesarios para la operación de la organización, basada en el presupuesto general, formulado en concordancia con los objetivos institucionales y la cual deberá estar consignada en el presupuesto correspondiente al proyecto, área, línea de producción o actividad específica. Considera como tasa de descuento la tasa de IBR, a fin de proponer un pronóstico mucho más acertado a la dinámica de la economía del país y a las variables que influyen en la organización.
-          div(x="52.5%" y="62%" numero="+" tooltip="Clic para abrir recurso")
+          div(x="53%" y="58%" numero="+" tooltip="Clic para abrir recurso")
             p #[b Política de gestión de recursos financieros]
             p La administración de los recursos se realiza mediante cuentas en entidades financieras. Su programación corresponde a los presupuestos elaborados y aprobados para tal fin, atendiendo en orden de prioridad los compromisos recurrentes y que están directamente relacionados con el desempeño organizacional. Para controlar su cumplimiento se utiliza el estado financiero y el flujo de caja, con el fin de monitorear los ingresos y egresos programados y el cumplimiento de los demás compromisos haciendo una oportuna aplicación de los recursos.
-          div(x="46.5%" y="62%" numero="+" tooltip="Clic para abrir recurso")
+          div(x="46.5%" y="57%" numero="+" tooltip="Clic para abrir recurso")
             p #[b Política control de recursos financieros]
             p Se verifica el beneficio obtenido en la vigencia correspondiente con la proyección realizada, monitoreando la sostenibilidad de la organización. Asimismo, se realizarán las conciliaciones bancarias que son comparadas con los asientos contables, guardando la trazabilidad y transparencia correspondiente, por esta razón, los pagos deben realizarse mediante transferencia electrónica, con el fin de realizar los controles requeridos cuando la gerencia y la oficina de control interno lo consideren pertinente. 
             p El canal transaccional tendrá una clave y contraseña entregada a dos personas esenciales de la organización en el proceso financiero para la administración de los recursos. 
@@ -152,10 +152,10 @@
             p #[b Política de formulación de presupuestos]
             p El presupuesto se elabora basado en un informe financiero histórico de acuerdo con la pertinencia que encuentre la gerencia y se toma como base para la proyección correspondiente. El incremento para la proyección se realizará con la tasa de descuento correspondiente al IPC, si este es acorde con la realidad de la economía nacional, de lo contrario se define tomar el IBR como tasa de descuento, la cual armoniza los choques o desniveles que presenta la economía. Se deben incluir las actividades adicionales generadoras de otros ingresos, las cuales también deben ser estimadas de acuerdo con incrementos e indicadores aplicados. 
             p Se debe realizar la clasificación de los costos para el análisis de sus movimientos e implementación de un control de gestión de recursos, los cuales, al igual que los gastos, deben ser proyectados, basados en datos de ejercicios anteriores. De la misma manera, se debe dar prioridad a su operación y no comprometer la sostenibilidad de la empresa.
-          div(x="46%" y="42%" numero="+" tooltip="Clic para abrir recurso")
+          div(x="46%" y="46%" numero="+" tooltip="Clic para abrir recurso")
             p #[b Política de ejecución del presupuesto]
             p La ejecución del presupuesto consiste en el  ingreso efectivo de los recursos proyectados conforme a la actividad económica y su ejecución pertinente mediante medios de pagos ágiles y efectivos que ahorren tiempo al cliente, la aplicación de los recursos captados debe ser distribuidos o ejecutados conforme lo requerido entre costos y gastos, atendiendo el presupuesto aprobado o realizando los ajustes requeridos, previa autorización de acuerdo con la realidad y dinámica de la empresa. Por último, para ejecutar el presupuesto se debe iniciar el proceso con las requisiciones de cada área o departamento y el cumplimiento o aplicación de los pagos correspondientes.
-          div(x="50.5%" y="41%" numero="+" tooltip="Clic para abrir recurso")
+          div(x="51%" y="44%" numero="+" tooltip="Clic para abrir recurso")
             p #[b Política de seguimiento y control del presupuesto]
             p Es necesario velar porque se ejecute conforme a lo planeado. Esta tarea se encuentra asignada al grupo de gestión administrativa y financiera, ligado a los procesos de planeación estratégica y de mejora continua, quienes deben monitorear que lo consignado en el presupuesto sea tenido en cuenta por cada área y destinado conforme lo definido, así como que se priorice conforme a las políticas establecidas para implementarlo. 
             p Su ejecución está a cargo del proceso administrativo y financiero, que es el responsable de aprobar o denegar las solicitudes de recursos para contrataciones sean de personal, de materiales o de inversión. Por último, la revisoría fiscal realiza el seguimiento de la planeación contra la ejecución mediante indicadores, gestión y resultados que promuevan la toma de decisiones.

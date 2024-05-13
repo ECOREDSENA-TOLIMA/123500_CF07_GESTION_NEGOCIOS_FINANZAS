@@ -50,15 +50,15 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10.col-12(data-aos="zoom-in-down")
         .cajon.color-primario.p-3.p-md-4
-          p.mb-0 Se considera la planificación financiera como una herramienta esencial en la administración de toda organización donde se construyen escenarios presentes y futuros basados en datos de resultados anteriores, facilitando su elaboración, la cual tiene como fin esencial generar excelentes resultados financieros y aportar a la toma de decisiones desde su mayor influencia, que es la organización; desde allí se disponen los recursos para que generen una mayor productividad y mayor valor agregado, redundando en los resultados de rentabilidad, permitiendo prever riesgos y anticiparse a un futuro siempre, buscando la sostenibilidad a través de la cual se impacta todos sus grupos de interés, haciendo una consolidación progresiva de futuros eventos partiendo de la realidad y basados en los resultados del pasado.
+          p.mb-0 Se considera la planificación financiera como una herramienta esencial en la administración de toda organización, donde se construyen escenarios presentes y futuros basados en datos de resultados anteriores facilitando su elaboración, la cual tiene como fin esencial, generar excelentes resultados financieros y aportar a la toma de decisiones desde su mayor influencia que es la organización; desde allí se disponen los recursos para que generen una mayor productividad y mayor valor agregado, redundando en los resultados de rentabilidad, permitiendo prever riesgos y anticiparse a un futuro siempre, buscando la sostenibilidad a través de la cual se impacta todos sus grupos de interés haciendo una consolidación progresiva de futuros eventos, partiendo de la realidad y basados en los resultados del pasado.
 
     .titulo-quinto.color-primario(data-aos="fade-down")
       h4.color-primario A continuación se presenta el proceso de planificación financiera:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Características de la empresa</i>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Proceso de planificación financiera</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig_2a.svg', alt='Esquema que relaciona el proceso de la planificación financiera, el cual parte de nuevas estrategias que tienen una situación actual y situaciones futuras deseadas y no deseadas.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_2b.svg', alt='Esquema que relaciona el proceso de la planificación financiera, el cual parte de nuevas estrategias que tienen una situación actual y situaciones futuras deseadas y no deseadas.') 
@@ -220,7 +220,7 @@
     .tarjeta.color-secundario.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/ej-02.svg")
+          img(src="@/assets/componentes/ico-export.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -314,14 +314,14 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-12.mb-4
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Características de la empresa</i>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Relación entre la planeación estratégica y la planeación financiera</i>
         figure
           img(src='@/assets/curso/temas/tema1/fig_3.svg', alt='Gráfico que hace mención de la relación entre la planeación estratégica y la planeación financiera, destacando que de la parte estratégica se hacen análisis para enfrentar posibles problemas y se llevan a cabo planes que ayuden a enfrentar improvistos; y dentro de la parte financiera se analiza el desempeño pasado, actual y futuro, con proyecciones a corto y largo plazo.')  
           figcaption Nota. Adaptado de Morales y Morales (2014).
       .col-12
         .cajon.color-primario.p-4
-          p.mb-0 Conociendo la capacidad de endeudamiento y el interés de inversión se hacen proyecciones a corto plazo como el presupuesto de flujo de efectivo y de largo plazo como el presupuesto de capital, por lo cual se puede concluir que los tipos de planificación financiera son de corto y largo plazo,;pero también se puede definir que la planificación financiera se ajusta a los tipos de planeación que son estratégica, táctica y operativa.
+          p.mb-0 Conociendo la capacidad de endeudamiento y el interés de inversión, se hacen proyecciones a corto plazo como el presupuesto de flujo de efectivo y de largo plazo como el presupuesto de capital, por lo cual, se puede concluir que los tipos de planificación financiera son de corto y largo plazo, pero también se puede definir que la planificación financiera se ajusta a los tipos de planeación que son estratégica, táctica y operativa.
 
     .row.justify-content-center.d-block.d-md-none
       .col-auto(data-aos="fade-left")
@@ -335,7 +335,7 @@
     #t_1_1.titulo-segundo.color-primario(data-aos="fade-right")
       h2 1.1 Estructura
     
-    p.mb-5(data-aos="fade-right") La estructura financiera de una organización, relacionada con la planificación financiera se refiere a un documento que consolida la información acerca de la manera en que se financia por medio de sus estados financieros.
+    p.mb-5(data-aos="fade-right") La estructura financiera de una organización, relacionada con la planificación financiera, se refiere a un documento que consolida la información acerca de la manera en que se financia por medio de sus estados financieros. A continuación, se presentan los cinco estados que representan esta estructura:
 
     .row.justify-content-center.align-items-center
       .col-12.col-md-10.d-sm-none.d-md-block(data-aos="zoom-in-down")
@@ -351,7 +351,7 @@
             p Mide los beneficios obtenidos luego de consolidar ingresos, costos y gastos de una actividad económica en un periodo de tiempo determinado.
           .tarjeta.color-primario.p-3(x="49%" y="40%" numero="+")
             .h5.mb-2 Flujos de efectivo
-            p Está constituido por tres categorías de actividades operativas, de financiación y de capital.
+            p Está constituido por tres categorías de actividades: operativas, de financiación y de capital.
           .tarjeta.color-primario.p-3(x="72%" y="34%" numero="+")
             .h5.mb-2 Estructura de capital
             p Se define basado en el costo de capital del proyecto o alternativa de inversión, la cual debe necesariamente generar un VPN que sea atractivo a fin de que los proyectos generen un mayor valor a la empresa; entre más alternativas existan con estos resultados, la empresa se encuentra en el camino de crecimiento y generación de valor EVA, produciendo riqueza.
@@ -390,7 +390,7 @@
 
     .row.align-items-center.justify-content-center.mb-4
       .col-md-7(data-aos="fade-right") 
-        p Son útiles para determinar el rumbo de la organización desde los datos cuantitativos, ya que realizarla no es producto de la intuición sino un proceso estructurado que parte de la recolección y análisis de información, para luego definir la posición real de la empresa en el sector y evaluar si lo actuado corresponde a lo que se diseñó desde la planeación y si esta misma se ve reflejada en los informes financieros, o si definitivamente la empresa requiere definir un nuevo norte para luego calcular los recursos necesarios.
+        p Son útiles para determinar el rumbo de la organización desde los datos cuantitativos, ya que realizarla no es producto de la intuición sino un proceso estructurado que parte de la recolección y análisis de información, para luego definir la posición real de la empresa en el sector y evaluar si lo actuado corresponde a lo que se diseñó desde la planeación, y si esta misma se ve reflejada en los informes financieros, o si definitivamente la empresa requiere definir un nuevo norte para luego calcular los recursos necesarios.
         p Las proyecciones son también conocidas como un pronóstico financiero que facilita la definición previa de la factibilidad de realizar programas. Es además un instrumento indispensable de control, pues genera un escenario de confianza entre los acreedores, identifica o determina la existencia de excedentes o faltantes de efectivo y determina la mejor forma o estrategia de usarlos o generarlos.
       .col-md-5(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/temas/tema1/img_12.png').mb-3
@@ -404,12 +404,12 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Las proyecciones son esa parte de la planificación financiera producto de un análisis previo exhaustivo que atiende políticas, condiciones o factores influyentes en la organización presentes en el entorno, estadísticas, movimientos de recursos e indicadores financieros. En otras palabras, todos estos factores se combinan para establecer la proyección financiera de un periodo determinado.
 
-    p.mb-5(data-aos="fade-right") Las proyecciones financieras corresponden a estimar los resultados a obtener en escenarios predeterminados y condiciones establecidas, a través de los cuales se construye la información financiera como resultado de las decisiones tomadas y con el fin de facilitar la toma de decisiones acerca de la implementación de nuevos proyectos de inversión. De esta manera, los tipos de proyecciones a realizar corresponden al tipo de informes financieros indispensables para la toma de decisiones, entre los que se encuentran los siguientes.
+    p.mb-5(data-aos="fade-right") Las proyecciones financieras corresponden a estimar los resultados a obtener en escenarios predeterminados y condiciones establecidas, a través de los cuales se construye la información financiera como resultado de las decisiones tomadas y con el fin de facilitar la toma de decisiones acerca de la implementación de nuevos proyectos de inversión. De esta manera, los tipos de proyecciones a realizar corresponden al tipo de informes financieros indispensables para la toma de decisiones, entre los que se encuentran los siguientes:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-12.col-md-10.col-lg-8
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Características de la empresa</i>
+      .col-12.col-md-10.col-lg-9
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Tipo de informes financieros</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig_4a.svg', alt='Imagen que menciona los 10 tipos de informes financieros presentes dentro de las proyecciones a realizar.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_4b.svg', alt='Imagen que menciona los 10 tipos de informes financieros presentes dentro de las proyecciones a realizar.') 
@@ -423,7 +423,7 @@
         .tarjeta.color-secundario.p-3.mb-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/componentes/ej-02.svg")
+              img(src="@/assets/componentes/ico-export.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -435,7 +435,7 @@
         .tarjeta.color-secundario.p-3.mb-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/componentes/ej-02.svg")
+              img(src="@/assets/componentes/ico-export.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -447,7 +447,7 @@
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/componentes/ej-02.svg")
+              img(src="@/assets/componentes/ico-export.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

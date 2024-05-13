@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Administración financiera y ejecución presupuestal',
     descripcionCurso:
-      'En las organizaciones todo es susceptible de ser medido y evaluado, y cuando esto se realiza en cada hallazgo encontrado hay una oportunidad de mejora o una situación que conlleva a transformaciones que hacen parte del crecimiento empresarial y por ende, a una acertada toma de decisiones.',
+      'En las organizaciones todo es susceptible de ser medido y evaluado, y cuando esto se realiza en cada hallazgo encontrado hay una oportunidad de mejora o una situación que conlleva a transformaciones que hacen parte del crecimiento empresarial, y por ende, a una acertada toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -222,7 +222,8 @@ export default {
     {
       referencia:
         'Morales, A y Morales, J. (2014). <em>Planeación financiera.</em> Grupo Editorial Patria.',
-      link: 'https://editorialpatria.com.mx/mobile/pdffiles/9786074382167.pdf',
+      link:
+        'http://www.paginaspersonales.unam.mx/app/webroot/files/1613/Asignaturas/1819/Archivo2.4240.pdf',
     },
     {
       referencia:
@@ -323,12 +324,12 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo: 'Validación de Recursos Educativos Digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

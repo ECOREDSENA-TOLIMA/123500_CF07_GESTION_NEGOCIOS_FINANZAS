@@ -63,8 +63,8 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-12
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura X. </b> <i>Características de la empresa</i>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 8. </b> <i>Información a tener en cuenta para la elaboración del presupuesto</i>
         figure
           img(src='@/assets/curso/temas/tema3/fig_8a.svg', alt='Imagen que hace relación a la información que se debe tener en cuenta al momento de elaborar el presupuesto.')  
 
@@ -118,8 +118,8 @@
             figure
               img(src='@/assets/curso/temas/tema3/img_3.svg', alt='')
           .col-md-6
-            p Este presupuesto pretende validar o evaluar la estrategia de financiación o de provisión de recursos financieros más apropiada para la organización. De esta manera, si la empresa adquiere una obligación financiera para embarcarse en un proyecto de inversión debe tener la capacidad de asumir el servicio a la deuda o si los socios son quienes aportan el capital debe dejarse claro los riesgos que se enfrentan y el nivel de seguridad que puede brindar la entidad con cierta propuesta de financiación.
-            p La figura expone que tanto proveedores como entidades financieras y los aportes a capital son beneficios generados a la empresa, mediante la estrategia de financiación y se constituyen en fuentes de financiamiento; estas a su vez tienen un costo por el servicio a la empresa o costo de capital. Es importante anotar que existen recursos de generación interna o GIR. Estos son todos aquellos conceptos que no representan salida o erogaciones de dinero; pero que son descontados, como lo es el caso de la depreciación que cuantifica el desgaste de los activos en la empresa.
+            p Este presupuesto pretende validar o evaluar la estrategia de financiación o de provisión de recursos financieros más apropiada para la organización. De esta manera, si la empresa adquiere una obligación financiera para embarcarse en un proyecto de inversión debe tener la capacidad de asumir el servicio a la deuda o si los socios son quienes aportan el capital, debe dejarse claro los riesgos que se enfrentan y el nivel de seguridad que puede brindar la entidad con cierta propuesta de financiación.
+            p La figura expone que tanto proveedores como entidades financieras y los aportes a capital, son beneficios generados a la empresa mediante la estrategia de financiación y se constituyen en fuentes de financiamiento; estas a su vez tienen un costo por el servicio a la empresa o costo de capital. Es importante anotar que existen recursos de generación interna o GIR. Estos son todos aquellos conceptos que no representan salida o erogaciones de dinero; pero que son descontados, como lo es el caso de la depreciación, que cuantifica el desgaste de los activos en la empresa.
       .py-3.py-md-4(titulo="Presupuesto de capital")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -127,8 +127,8 @@
               img(src='@/assets/curso/temas/tema3/img_4.svg', alt='')
           .col-md-6
             p Este presupuesto se elabora con el fin de evaluar cuáles de las opciones al alcance de la empresa son más favorables para su capitalización. 
-            p Los recursos provenientes por vía de financiación deben ser utilizados especialmente en capital de trabajo de ágil circulación o de fácil recuperación, de circulación baja o lenta. Se refiere a la generación de recursos internos como la depreciación, la amortización y los dividendos por cancelar, y el capital de trabajo intangible o capital intelectual con el cual se aplican excelentes estrategias y se logran resultados exitosos.
-            p El apalancamiento se traduce en dinero, el cual es invertido en inventarios, costos operativos y financieros y costos de ventas, generando ventas. Esto último son ingresos, cancelando el costo de ventas y por consiguiente realizando la cancelación a proveedores, costos operativos, costos financieros y costos de largo plazo. 
+            p Los recursos provenientes por vía de financiación, deben ser utilizados especialmente en capital de trabajo de ágil circulación o de fácil recuperación, de circulación baja o lenta. Se refiere a la generación de recursos internos como la depreciación, la amortización y los dividendos por cancelar, y el capital de trabajo intangible o capital intelectual con el cual se aplican excelentes estrategias y se logran resultados exitosos.
+            p El apalancamiento se traduce en dinero, el cual es invertido en inventarios, costos operativos y financieros y costos de ventas, generando ventas. Esto último son ingresos, cancelando el costo de ventas y por consiguiente, realizando la cancelación a proveedores, costos operativos, costos financieros y costos de largo plazo. 
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10.col-12(data-aos="zoom-in-down")
@@ -141,20 +141,20 @@
 
     .row.align-items-center.justify-content-center.mb-4
       .col-md-7(data-aos="fade-right") 
-        p.mb-2 Al ejecutar el presupuesto es indispensable generar informes de su puesta en marcha con el fin de aplicar el control de la gestión en los mismos, utilizando el instrumento de control de gestión del presupuesto, el cual permite reconocer desde la gerencia financiera los puntos o hallazgos. En otras palabras, se realiza un ejercicio en el que se analiza lo planeado junto a lo ejecutado para determinar si hubo una desviación o si el hallazgo se produce por causa de un imprevisto, lo que obligó a realizar modificaciones al presupuesto, también al escrutinio del presupuesto desde sus diferentes etapas, con el fin de tomar medidas correctivas apropiadas, indispensables para evitar futuros fracasos.
-        p.mb-0 Lo anterior evidencia la importancia de la ejecución presupuestal y la necesaria aplicación del control en cada etapa y gestión financiera. A continuación se presentan los tipos de control aplicables al presupuesto:
+        p.mb-2 Al ejecutar el presupuesto, es indispensable generar informes de su puesta en marcha con el fin de aplicar el control de la gestión en los mismos, utilizando el instrumento de control de gestión del presupuesto, el cual permite reconocer desde la gerencia financiera los puntos o hallazgos. En otras palabras, se realiza un ejercicio en el que se analiza lo planeado junto a lo ejecutado para determinar si hubo una desviación o si el hallazgo se produce por causa de un imprevisto, lo que obligó a realizar modificaciones al presupuesto, también al escrutinio del presupuesto desde sus diferentes etapas, con el fin de tomar medidas correctivas apropiadas, indispensables para evitar futuros fracasos.
+        p.mb-0 Lo anterior evidencia la importancia de la ejecución presupuestal y la necesaria aplicación del control en cada etapa y gestión financiera. A continuación, se presentan los tipos de control aplicables al presupuesto:
       .col-md-5(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/temas/tema3/img_5.png').mb-3
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
-        //- .titulo-sexto.color-acento-contenido
-        //-   p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Características de la empresa</i>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Tipos de control aplicables al proceso</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_9a.svg', alt='Imagen que menciona lo relacionado con los tipos de control que son aplicables al presupuesto, estos tipos son: preliminar, retroalimentación, coincidente.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_9b.svg', alt='Imagen que menciona lo relacionado con los tipos de control que son aplicables al presupuesto, estos tipos son: preliminar, retroalimentación, coincidente.') 
 
-    p.mb-5(data-aos="fade-right") Desde esta óptica el presupuesto puede ser visualizado desde dos enfoques:
+    p.mb-5(data-aos="fade-right") Desde esta óptica, el presupuesto puede ser visualizado desde dos enfoques:
 
     .row.justify-content-center.mb-5
       .col-sm-6.col-lg-4.col-12.mb-4.mb-lg-0
@@ -172,7 +172,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/ico2.svg', alt='')
           h3.text-center Presupuesto como control de eficiencia
-          p Está diseñado sobre escenarios de entornos específicos pero al surgir modificaciones en ellos el presupuesto puede discrepar con esa realidad, por lo que la gerencia financiera deberá decidir las modificaciones o ajustes requeridos tomando como base el presupuesto proyectado y manteniendo el fin para el cual fue creado.
+          p Está diseñado sobre escenarios de entornos específicos pero al surgir modificaciones en ellos el presupuesto puede discrepar con esa realidad, por lo que la gerencia financiera deberá decidir las modificaciones o ajustes requeridos, tomando como base el presupuesto proyectado y manteniendo el fin para el cual fue creado.
 
     Separador
     #t_3_3.titulo-segundo.color-primario(data-aos="fade-right")
@@ -184,9 +184,9 @@
         img.mt-3(src='@/assets/curso/temas/tema3/img_6.svg') 
       .col-lg-8.col-12(data-aos="fade-right") 
         p Son las modificaciones que se necesitan aplicar al presupuesto, debido a que en la ejecución del mismo se producen escenarios diferentes a lo planeado, por lo que es necesario tomar decisiones apropiadas, lo cual no puede quedar allí, sino que requiere de una revisión exhaustiva, ya que estos hallazgos aportarán a la modificación del presupuesto, especialmente para la proyección de la vigencia siguiente.
-        p Debido a que estos ajustes son constantes se requiere de la habilidad para elaborar un presupuesto adaptable; pero que se ajuste a la mínima expresión o cuantía, a fin de que cumpla su función de promover el logro de objetivos de la organización de manera eficiente.
+        p Debido a que estos ajustes son constantes, se requiere de la habilidad para elaborar un presupuesto adaptable; pero que se ajuste a la mínima expresión o cuantía, a fin de que cumpla su función de promover el logro de objetivos de la organización de manera eficiente.
         .cajon.color-primario.p-3.p-md-4.mb-3
-          p.mb-0 Lo más importante a la hora de construirlo (presupuesto) es ser realista, lo que pone sobre la mesa muchas variaciones que se deban realizar; pero eso no quiere decir que el presupuesto puede quedar mal estimado o que gracias a la posibilidad de ajustarlos se incluyan sobrecostos, lo cual sería un error en la gestión financiera.
+          p.mb-0 Lo más importante a la hora de construir un presupuesto es ser realista, lo que pone sobre la mesa muchas variaciones que se deban realizar; pero eso no quiere decir que el presupuesto puede quedar mal estimado o que gracias a la posibilidad de ajustarlos se incluyan sobrecostos, lo cual sería un error en la gestión financiera.
 
           
 </template>
