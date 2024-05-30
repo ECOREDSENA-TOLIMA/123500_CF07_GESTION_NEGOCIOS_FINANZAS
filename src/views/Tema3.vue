@@ -66,7 +66,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 8. </b> <i>Información a tener en cuenta para la elaboración del presupuesto</i>
         figure
-          img(src='@/assets/curso/temas/tema3/fig_8a.svg', alt='Imagen que hace relación a la información que se debe tener en cuenta al momento de elaborar el presupuesto.')  
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_8a.svg', alt='Imagen que hace relación a la información que se debe tener en cuenta al momento de elaborar el presupuesto.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_8b.svg', alt='Imagen que hace relación a la información que se debe tener en cuenta al momento de elaborar el presupuesto.')  
 
     Separador
     #t_3_1.titulo-segundo.color-primario(data-aos="fade-right")
@@ -104,28 +105,53 @@
 
     p.mb-5(data-aos="fade-right") Ahora bien, este apartado se concentrará en los presupuestos financieros y operacionales, los cuales a su vez tienen relacionados los siguientes presupuestos:
 
-    TabsC.color-primario.mb-4
-      .py-3.py-md-4(titulo="Presupuesto de inversiones")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema3/img_2.png', alt='')
-          .col-md-6
-            p Refleja las inversiones a realizar durante un período de tiempo futuro, por lo cual va ligado a los activos y por ende, a un proyecto de inversión a realizar, lo que genera el incremento en el valor de los activos y en contrapartida en obligaciones o patrimonio, dependiendo la fuente que haya provisto los recursos.
-      .py-3.py-md-4(titulo="Presupuesto de financiación")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema3/img_3.svg', alt='')
-          .col-md-6
-            p Este presupuesto pretende validar o evaluar la estrategia de financiación o de provisión de recursos financieros más apropiada para la organización. De esta manera, si la empresa adquiere una obligación financiera para embarcarse en un proyecto de inversión debe tener la capacidad de asumir el servicio a la deuda o si los socios son quienes aportan el capital, debe dejarse claro los riesgos que se enfrentan y el nivel de seguridad que puede brindar la entidad con cierta propuesta de financiación.
-            p La figura expone que tanto proveedores como entidades financieras y los aportes a capital, son beneficios generados a la empresa mediante la estrategia de financiación y se constituyen en fuentes de financiamiento; estas a su vez tienen un costo por el servicio a la empresa o costo de capital. Es importante anotar que existen recursos de generación interna o GIR. Estos son todos aquellos conceptos que no representan salida o erogaciones de dinero; pero que son descontados, como lo es el caso de la depreciación, que cuantifica el desgaste de los activos en la empresa.
-      .py-3.py-md-4(titulo="Presupuesto de capital")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema3/img_4.svg', alt='')
-          .col-md-6
+    //- TabsC.color-primario.mb-4
+    //-   .py-3.py-md-4(titulo="Presupuesto de inversiones")
+    //-     .row
+    //-       .col-md-6.mb-4.mb-md-0
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema3/img_2.png', alt='')
+    //-       .col-md-6
+    //-         p Refleja las inversiones a realizar durante un período de tiempo futuro, por lo cual va ligado a los activos y por ende, a un proyecto de inversión a realizar, lo que genera el incremento en el valor de los activos y en contrapartida en obligaciones o patrimonio, dependiendo la fuente que haya provisto los recursos.
+    //-   .py-3.py-md-4(titulo="Presupuesto de financiación")
+    //-     .row
+    //-       .col-md-6.mb-4.mb-md-0
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema3/img_3.svg', alt='')
+    //-       .col-md-6
+    //-         p Este presupuesto pretende validar o evaluar la estrategia de financiación o de provisión de recursos financieros más apropiada para la organización. De esta manera, si la empresa adquiere una obligación financiera para embarcarse en un proyecto de inversión debe tener la capacidad de asumir el servicio a la deuda o si los socios son quienes aportan el capital, debe dejarse claro los riesgos que se enfrentan y el nivel de seguridad que puede brindar la entidad con cierta propuesta de financiación.
+    //-         p La figura expone que tanto proveedores como entidades financieras y los aportes a capital, son beneficios generados a la empresa mediante la estrategia de financiación y se constituyen en fuentes de financiamiento; estas a su vez tienen un costo por el servicio a la empresa o costo de capital. Es importante anotar que existen recursos de generación interna o GIR. Estos son todos aquellos conceptos que no representan salida o erogaciones de dinero; pero que son descontados, como lo es el caso de la depreciación, que cuantifica el desgaste de los activos en la empresa.
+    //-   .py-3.py-md-4(titulo="Presupuesto de capital")
+    //-     .row
+    //-       .col-md-6.mb-4.mb-md-0
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema3/img_4.svg', alt='')
+    //-       .col-md-6
+    //-         p Este presupuesto se elabora con el fin de evaluar cuáles de las opciones al alcance de la empresa son más favorables para su capitalización. 
+    //-         p Los recursos provenientes por vía de financiación, deben ser utilizados especialmente en capital de trabajo de ágil circulación o de fácil recuperación, de circulación baja o lenta. Se refiere a la generación de recursos internos como la depreciación, la amortización y los dividendos por cancelar, y el capital de trabajo intangible o capital intelectual con el cual se aplican excelentes estrategias y se logran resultados exitosos.
+    //-         p El apalancamiento se traduce en dinero, el cual es invertido en inventarios, costos operativos y financieros y costos de ventas, generando ventas. Esto último son ingresos, cancelando el costo de ventas y por consiguiente, realizando la cancelación a proveedores, costos operativos, costos financieros y costos de largo plazo. 
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row.align-items-center.justify-content-center(titulo="Presupuesto de inversiones")
+        .col-lg-10.col-12.mb-4.mb-md-3
+          figure
+            img(src='@/assets/curso/temas/tema3/img_2.png', alt='')
+        .col-lg-10.col-12
+          p Refleja las inversiones a realizar durante un período de tiempo futuro, por lo cual va ligado a los activos y por ende, a un proyecto de inversión a realizar, lo que genera el incremento en el valor de los activos y en contrapartida en obligaciones o patrimonio, dependiendo la fuente que haya provisto los recursos.
+      .row.align-items-center.justify-content-center(titulo="Presupuesto de financiación")
+        .col-lg-10.col-12.mb-4.mb-md-3
+          figure
+            img(src='@/assets/curso/temas/tema3/img_3.svg', alt='')
+            figcaption Nota. Mapa mental del financiamiento hacia la inversión. Adaptado de Pacheco (2020). 
+        .col-lg-10.col-12
+          p Este presupuesto pretende validar o evaluar la estrategia de financiación o de provisión de recursos financieros más apropiada para la organización. De esta manera, si la empresa adquiere una obligación financiera para embarcarse en un proyecto de inversión debe tener la capacidad de asumir el servicio a la deuda o si los socios son quienes aportan el capital, debe dejarse claro los riesgos que se enfrentan y el nivel de seguridad que puede brindar la entidad con cierta propuesta de financiación.
+          p La figura expone que tanto proveedores como entidades financieras y los aportes a capital, son beneficios generados a la empresa mediante la estrategia de financiación y se constituyen en fuentes de financiamiento; estas a su vez tienen un costo por el servicio a la empresa o costo de capital. Es importante anotar que existen recursos de generación interna o GIR. Estos son todos aquellos conceptos que no representan salida o erogaciones de dinero; pero que son descontados, como lo es el caso de la depreciación, que cuantifica el desgaste de los activos en la empresa.
+      .row.align-items-center.justify-content-center(titulo="Presupuesto de financiación")
+        .col-lg-10.col-12.mb-4.mb-md-3
+          figure
+            img(src='@/assets/curso/temas/tema3/img_4.svg', alt='')
+            figcaption Nota. Mapa mental del impacto de flujo. Adaptado de Pacheco (2020). 
+        .col-lg-10.col-12
             p Este presupuesto se elabora con el fin de evaluar cuáles de las opciones al alcance de la empresa son más favorables para su capitalización. 
             p Los recursos provenientes por vía de financiación, deben ser utilizados especialmente en capital de trabajo de ágil circulación o de fácil recuperación, de circulación baja o lenta. Se refiere a la generación de recursos internos como la depreciación, la amortización y los dividendos por cancelar, y el capital de trabajo intangible o capital intelectual con el cual se aplican excelentes estrategias y se logran resultados exitosos.
             p El apalancamiento se traduce en dinero, el cual es invertido en inventarios, costos operativos y financieros y costos de ventas, generando ventas. Esto último son ingresos, cancelando el costo de ventas y por consiguiente, realizando la cancelación a proveedores, costos operativos, costos financieros y costos de largo plazo. 

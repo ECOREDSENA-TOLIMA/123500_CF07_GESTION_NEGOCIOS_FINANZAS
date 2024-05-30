@@ -221,7 +221,7 @@ export default {
     },
     {
       referencia:
-        'Morales, A y Morales, J. (2014). <em>Planeación financiera.</em> Grupo Editorial Patria.',
+        'Morales, A y Morales, J. (2014). <em>Planeación financiera.</em> Grupo Editorial Patria. ',
       link:
         'http://www.paginaspersonales.unam.mx/app/webroot/files/1613/Asignaturas/1819/Archivo2.4240.pdf',
     },

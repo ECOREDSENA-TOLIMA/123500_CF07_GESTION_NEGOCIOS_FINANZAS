@@ -26,7 +26,7 @@
     p.mb-5(data-aos="fade-right") Con el fin de propiciar el escenario de la planificación financiera se presentan a continuación definiciones de autores como Valle (2020) para contar con distintos puntos de vista y así proponer al final un concepto integrador, que puede ser luego deconstruido para la proposición de uno mucho más pertinente.
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-down")
-      .col-12.col-md-10.col-lg-8
+      .col-12.col-md-10.col-lg-8.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -46,6 +46,10 @@
           .tarjeta.color-primario.p-3(x="50%" y="92%" numero="+")
             .h5.mb-2 Resultados financieros
             p Calopa (2017) (citado en Valle, 2020) refiere a que  existen la planificación financiera y estratégica creadas para promover el exitoso y sostenible desempeño organizacional; sin embargo, la mayoría de propietarios y administradores se enfocan en los resultados financieros, es decir, hay rentabilidad o no, pero se deja de lado la función esencial que tiene este mecanismo y es la organización; a partir de la cual se genera mayor impacto en la toma de decisiones desde la óptica financiera, gracias a que es allí donde se prevén los riesgos. Por ello, es considerada uno de los pilares de las entidades modernas, debido a que se enfoca en diferentes fuentes de financiación, prevé sucesos y anticipadamente prospecta el futuro a través de los presupuestos.
+
+      .col-12.d-block.d-md-none
+        figure
+          img(src='@/assets/curso/temas/tema1/img_2b.svg', alt='')           
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10.col-12(data-aos="zoom-in-down")
@@ -220,12 +224,12 @@
     .tarjeta.color-secundario.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/ico-export.svg")
+          img(src="@/assets/componentes/ico-export-1.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Secuencia del proceso de planificación financiera basado en estrategias
-              p.text-small En el siguiente gráfico se evidencia cómo cada estrategia planteada en la planificación financiera tiene un resultado, producto o impacto en los documentos que permiten planificar de forma estructurada los diferentes componentes o puntos críticos en cuanto a finanzas en la organización.  
+              p En el siguiente gráfico se evidencia cómo cada estrategia planteada en la planificación financiera tiene un resultado, producto o impacto en los documentos que permiten planificar de forma estructurada los diferentes componentes o puntos críticos en cuanto a finanzas en la organización.  
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_EstrategiasPlanificacion.pdf')" target="_blank")
                 span Ver gráfico
@@ -307,7 +311,7 @@
 
     figure.mb-5(data-aos="fade-down-left")
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/" title="Proceso de planeación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bYIFsW74Gtg" title="Proceso de planeación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       figcaption Proceso de planeación
     
     p.mb-5(data-aos="fade-right") De acuerdo con lo anterior, el siguiente recurso presenta la relación existente entre la planeación estratégica y la planeación financiera, permitiendo definir que a partir de la definición estratégica de la organización se realiza el análisis del pasado, presente y futuro y de este último, se producen las previsiones en estados financieros como lo son el estado de situación financiera, el estado de resultados y el flujo de efectivo o de caja.
@@ -319,17 +323,15 @@
         figure
           img(src='@/assets/curso/temas/tema1/fig_3.svg', alt='Gráfico que hace mención de la relación entre la planeación estratégica y la planeación financiera, destacando que de la parte estratégica se hacen análisis para enfrentar posibles problemas y se llevan a cabo planes que ayuden a enfrentar improvistos; y dentro de la parte financiera se analiza el desempeño pasado, actual y futuro, con proyecciones a corto y largo plazo.')  
           figcaption Nota. Adaptado de Morales y Morales (2014).
-      .col-12
-        .cajon.color-primario.p-4
-          p.mb-0 Conociendo la capacidad de endeudamiento y el interés de inversión, se hacen proyecciones a corto plazo como el presupuesto de flujo de efectivo y de largo plazo como el presupuesto de capital, por lo cual, se puede concluir que los tipos de planificación financiera son de corto y largo plazo, pero también se puede definir que la planificación financiera se ajusta a los tipos de planeación que son estratégica, táctica y operativa.
-
-    .row.justify-content-center.d-block.d-md-none
-      .col-auto(data-aos="fade-left")
+      .col-12.d-block.d-md-none
         a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_PlanificacionEstrategicayFinanciera.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Descargar. Relación entre la planeación estratégica y la planeación financiera
+      .col-12
+        .cajon.color-primario.p-4
+          p.mb-0 Conociendo la capacidad de endeudamiento y el interés de inversión, se hacen proyecciones a corto plazo como el presupuesto de flujo de efectivo y de largo plazo como el presupuesto de capital, por lo cual, se puede concluir que los tipos de planificación financiera son de corto y largo plazo, pero también se puede definir que la planificación financiera se ajusta a los tipos de planeación que son estratégica, táctica y operativa.
 
     Separador
     #t_1_1.titulo-segundo.color-primario(data-aos="fade-right")
@@ -338,7 +340,7 @@
     p.mb-5(data-aos="fade-right") La estructura financiera de una organización, relacionada con la planificación financiera, se refiere a un documento que consolida la información acerca de la manera en que se financia por medio de sus estados financieros. A continuación, se presentan los cinco estados que representan esta estructura:
 
     .row.justify-content-center.align-items-center
-      .col-12.col-md-10.d-sm-none.d-md-block(data-aos="zoom-in-down")
+      .col-12.col-md-10.d-none.d-sm-none.d-md-block(data-aos="zoom-in-down")
         ImagenInfografica.color-acento-botones.mb-4
           template(v-slot:imagen)
             figure
@@ -423,38 +425,38 @@
         .tarjeta.color-secundario.p-3.mb-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/componentes/ico-export.svg")
+              img(src="@/assets/componentes/ico-export-2.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Estado de la situación financiera
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_EstadoSituacionFinanciera.pdf')" target="_blank")
-                    span Ver PDF
+                    span Descargar
                     i.fas.fa-file-download
         .tarjeta.color-secundario.p-3.mb-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/componentes/ico-export.svg")
+              img(src="@/assets/componentes/ico-export-3.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Estado de resultados
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_EstadoResultados.pdf')" target="_blank")
-                    span Ver PDF
+                    span Descargar
                     i.fas.fa-file-download
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/componentes/ico-export.svg")
+              img(src="@/assets/componentes/ico-export-4.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Flujo de caja o de efectivo
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_FlujoCajaEfectivo.pdf')" target="_blank")
-                    span Ver PDF
+                    span Descargar
                     i.fas.fa-file-download
 
  

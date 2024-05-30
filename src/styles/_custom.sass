@@ -2,8 +2,8 @@
   &-0
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 33%
-    right: 37%
+    top: 36%
+    right: 38%
     width: 30%
   &-1
     animation: float1 3.2s ease-in-out infinite alternate
@@ -18,9 +18,12 @@
   &-3
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 76%
-    right: 70%
+    top: 79%
+    right: 75%
 
+.banner-principal__img 
+  img
+    width: 90%
 
 @keyframes float1
   0%
@@ -154,3 +157,15 @@ h4.color-primario
 
 .dialogo.color-primario .dialogo__words__word
   color: #3c7792 !important
+
+  
+.tarjeta.tarjeta--azul
+  background: #E1EFE3
+  background-repeat: no-repeat
+  background-size: cover
+
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FEF5E5
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
