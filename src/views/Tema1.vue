@@ -409,7 +409,7 @@
     p.mb-5(data-aos="fade-right") Las proyecciones financieras corresponden a estimar los resultados a obtener en escenarios predeterminados y condiciones establecidas, a través de los cuales se construye la información financiera como resultado de las decisiones tomadas y con el fin de facilitar la toma de decisiones acerca de la implementación de nuevos proyectos de inversión. De esta manera, los tipos de proyecciones a realizar corresponden al tipo de informes financieros indispensables para la toma de decisiones, entre los que se encuentran los siguientes:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-12.col-md-10.col-lg-9
+      .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Tipo de informes financieros</i>
         figure
