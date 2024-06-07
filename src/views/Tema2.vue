@@ -94,23 +94,23 @@
         .row 
           .col-12.mb-4
             figure
-              img(src='@/assets/curso/temas/tema2/img_3.png', alt='')
-          .col-12
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Identificar la necesidad
-              p La organización debe calcular o estimar los recursos que requiere a través del presupuesto operacional, de esta manera garantiza que la actividad económica y su desempeño estén amparadas o cuenten con los recursos para su ejecución.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Financiación
-              p A través del estado de situación financiera se define la estructura financiera de la organización, es decir, cuáles actividades o inversiones se pueden realizar con recursos propios y cuánto dinero debe gestionarse con terceros.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Estrategia de financiamiento
-              p La empresa debe definir el método más apropiado para gestionar los recursos que deben ser financiados. Esta decisión debe evaluarse de acuerdo con criterios de VPN y TIR, teniendo como instrumentos la participación en el mercado de capitales a través de la emisión de bonos u otro tipo de herramienta que favorezca las condiciones de la empresa y tenga el menor costo de capital que la empresa pueda asumir, siendo aspectos clave la tasa de interés, el plazo de la obligación y demás efectos a analizar del endeudamiento.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Administración de los recursos
-              p La asignación de recursos entre las diferentes áreas o actividades a realizar debe ser prudente, de tal manera que cuenta con los recursos para cubrir sus obligaciones corrientes con proveedores, entidades financieras y empleados. Esta aplicación de recursos debe ser monitoreada a través de indicadores financieros, con el fin de mantener vigilada tanto la solvencia, el endeudamiento, así como su liquidez.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Evaluación de proyectos
-              p La empresa debe definir con especial detenimiento y prudencia las inversiones a realizar, las cuales deben ser estudiadas técnicamente para definir el beneficio que generarán a través de indicadores como VPN y TIR y todos los demás que desee aplican a fin de dar pasos firmes en cuanto a inversión.
+              img(src='@/assets/curso/temas/tema2/img_3.svg', alt='')
+          //- .col-12
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Identificar la necesidad
+          //-     p La organización debe calcular o estimar los recursos que requiere a través del presupuesto operacional, de esta manera garantiza que la actividad económica y su desempeño estén amparadas o cuenten con los recursos para su ejecución.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Financiación
+          //-     p A través del estado de situación financiera se define la estructura financiera de la organización, es decir, cuáles actividades o inversiones se pueden realizar con recursos propios y cuánto dinero debe gestionarse con terceros.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Estrategia de financiamiento
+          //-     p La empresa debe definir el método más apropiado para gestionar los recursos que deben ser financiados. Esta decisión debe evaluarse de acuerdo con criterios de VPN y TIR, teniendo como instrumentos la participación en el mercado de capitales a través de la emisión de bonos u otro tipo de herramienta que favorezca las condiciones de la empresa y tenga el menor costo de capital que la empresa pueda asumir, siendo aspectos clave la tasa de interés, el plazo de la obligación y demás efectos a analizar del endeudamiento.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Administración de los recursos
+          //-     p La asignación de recursos entre las diferentes áreas o actividades a realizar debe ser prudente, de tal manera que cuenta con los recursos para cubrir sus obligaciones corrientes con proveedores, entidades financieras y empleados. Esta aplicación de recursos debe ser monitoreada a través de indicadores financieros, con el fin de mantener vigilada tanto la solvencia, el endeudamiento, así como su liquidez.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Evaluación de proyectos
+          //-     p La empresa debe definir con especial detenimiento y prudencia las inversiones a realizar, las cuales deben ser estudiadas técnicamente para definir el beneficio que generarán a través de indicadores como VPN y TIR y todos los demás que desee aplican a fin de dar pasos firmes en cuanto a inversión.
         
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos="fade-right")
@@ -131,7 +131,7 @@
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-down")
       .col-12.col-md-10.col-lg-10
-        ImagenInfograficaB.color-acento-botones.ismodal2.mb-5
+        ImagenInfograficaB.color-acento-botones.ismodal2.mb-4
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img_6.svg', alt='')
@@ -160,13 +160,13 @@
             p Es necesario velar porque se ejecute conforme a lo planeado. Esta tarea se encuentra asignada al grupo de gestión administrativa y financiera, ligado a los procesos de planeación estratégica y de mejora continua, quienes deben monitorear que lo consignado en el presupuesto sea tenido en cuenta por cada área y destinado conforme lo definido, así como que se priorice conforme a las políticas establecidas para implementarlo. 
             p Su ejecución está a cargo del proceso administrativo y financiero, que es el responsable de aprobar o denegar las solicitudes de recursos para contrataciones sean de personal, de materiales o de inversión. Por último, la revisoría fiscal realiza el seguimiento de la planeación contra la ejecución mediante indicadores, gestión y resultados que promuevan la toma de decisiones.
 
-    .row.justify-content-center
+    .row.justify-content-center.d-block.d-md-none.mb-4
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_PoliticasOrganizacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Descargar. Políticas de una organización
+            p #[b Descargar.] Políticas de una organización
 
     .row.align-items-center.justify-content-center.mb-4
       .col-md-8.col-lg-9.col-12(data-aos="fade-right") 

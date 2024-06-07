@@ -190,7 +190,7 @@
                 i.lista-ul__vineta
                 | Estados de la situación financiera previsional.
         
-    .row.justify-content-center
+    .row.justify-content-center.d-block.d-md-none
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_EtapasPlanificacionFinanciera.pdf')" target="_blank")
           .anexo__icono
@@ -276,31 +276,31 @@
           .col-12.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img_7.svg', alt='')
-          .col-12
-            .tarjeta.color-primario.p-3.mb-4
-              p #[b Ciencia]
-              p Una ciencia debido a que desde su aparición la administración ha evolucionado generando nuevos conocimientos y permitiendo el mejoramiento organizacional mediante su implementación a través del liderazgo, el direccionamiento estratégico, la coordinación de recursos, la división del trabajo, la especialización de las áreas o departamentos, la asignación de funciones, responsabilidad y autoridad de los puestos de trabajo.
-              div(x="37%" y="65%" numero="+" tooltip="Clic para abrir recurso")
-            .tarjeta.color-primario.p-3.mb-4
-              p #[b Técnica]
-              p Es considerada una técnica porque se implementa mediante dos fases administrativas: mecánica o estructural y dinámica u operacional. A continuación, se describen cada una de sus etapas. 
-            figure.mb-3
-              img(src='@/assets/curso/temas/tema1/img_8.svg', alt='')
-            .tarjeta.color-terciario.p-3.mb-3
-              .h5.mb-2 Planeación
-              p La fase mecánica o estructural corresponde al diseño de la organización; cómo se concibe desde la idea que tienen sus dueños y cómo espera que sea, para lo cual la #[b planeación] se convierte en la herramienta que permite diseñar desde lo general a lo particular, definiendo objetivos estratégicos u organizacionales hasta llegar a definir los objetivos de cada puesto de trabajo.
-            .tarjeta.color-terciario.p-3.mb-3
-              .h5.mb-2 Organización
-              p Asimismo, la #[b organización] pertenece a esta fase y toma la información consignada en la etapa de planeación y la aterriza a la realidad a través de procesos y procedimientos. Define los recursos requeridos para lograr los objetivos y diseña una estructura organizacional que comunica la jerarquía existente: el nivel de responsabilidad y autoridad de cada cargo, los cuales siempre serán el nivel estratégico o de la gerencia; el nivel táctico correspondiente a las áreas o departamentos; y nivel operativo donde se encuentran los responsables de llevar a cabo las actividades de la empresa.
-            .tarjeta.color-terciario.p-3.mb-3
-              .h5.mb-2 Dirección
-              p En la fase dinámica se encuentra la #[b dirección] donde se pone en marcha todo lo diseñado en la planeación, junto con los recursos dispuestos en la organización para llevarlos a cabo en la realidad, lo que permite ejecutar o poner en marcha procesos, procedimientos, instructivos y actividades, con el fin de trabajar de manera coordinada en pro del logro de los objetivos.
-            .tarjeta.color-terciario.p-3.mb-4
-              .h5.mb-2 Control
-              p Y por último, en esta fase se encuentra la etapa de #[b control] donde se consolidan resultados y se evalúan si estos están acordes con lo planeado. De no ser así, se detectan desviaciones y sus causas, así como imprevistos para retroalimentar el proceso administrativo y posteriormente, realizar una actualización a la planeación y a las demás fases, de ser necesario, cumpliendo con su esencia de ser un proceso sistémico que se encuentra en constante renovación.
-            .tarjeta.color-primario.p-3.mb-4
-              p #[b Arte]
-              p La administración es considerada un arte, pues es fundamental también reconocer que depende de cada administrador, el sello que le imprime a su gestión y dirección en la empresa. Esto obedece a que cada individuo tiene una personalidad definida y de esto depende que la administración a pesar de ser una ciencia con un planteamiento claro, sea percibida desde diferentes enfoques o maneras.
+          //- .col-12
+          //-   .tarjeta.color-primario.p-3.mb-4
+          //-     p #[b Ciencia]
+          //-     p Una ciencia debido a que desde su aparición la administración ha evolucionado generando nuevos conocimientos y permitiendo el mejoramiento organizacional mediante su implementación a través del liderazgo, el direccionamiento estratégico, la coordinación de recursos, la división del trabajo, la especialización de las áreas o departamentos, la asignación de funciones, responsabilidad y autoridad de los puestos de trabajo.
+          //-     div(x="37%" y="65%" numero="+" tooltip="Clic para abrir recurso")
+          //-   .tarjeta.color-primario.p-3.mb-4
+          //-     p #[b Técnica]
+          //-     p Es considerada una técnica porque se implementa mediante dos fases administrativas: mecánica o estructural y dinámica u operacional. A continuación, se describen cada una de sus etapas. 
+          //-   figure.mb-3
+          //-     img(src='@/assets/curso/temas/tema1/img_8.svg', alt='')
+          //-   .tarjeta.color-terciario.p-3.mb-3
+          //-     .h5.mb-2 Planeación
+          //-     p La fase mecánica o estructural corresponde al diseño de la organización; cómo se concibe desde la idea que tienen sus dueños y cómo espera que sea, para lo cual la #[b planeación] se convierte en la herramienta que permite diseñar desde lo general a lo particular, definiendo objetivos estratégicos u organizacionales hasta llegar a definir los objetivos de cada puesto de trabajo.
+          //-   .tarjeta.color-terciario.p-3.mb-3
+          //-     .h5.mb-2 Organización
+          //-     p Asimismo, la #[b organización] pertenece a esta fase y toma la información consignada en la etapa de planeación y la aterriza a la realidad a través de procesos y procedimientos. Define los recursos requeridos para lograr los objetivos y diseña una estructura organizacional que comunica la jerarquía existente: el nivel de responsabilidad y autoridad de cada cargo, los cuales siempre serán el nivel estratégico o de la gerencia; el nivel táctico correspondiente a las áreas o departamentos; y nivel operativo donde se encuentran los responsables de llevar a cabo las actividades de la empresa.
+          //-   .tarjeta.color-terciario.p-3.mb-3
+          //-     .h5.mb-2 Dirección
+          //-     p En la fase dinámica se encuentra la #[b dirección] donde se pone en marcha todo lo diseñado en la planeación, junto con los recursos dispuestos en la organización para llevarlos a cabo en la realidad, lo que permite ejecutar o poner en marcha procesos, procedimientos, instructivos y actividades, con el fin de trabajar de manera coordinada en pro del logro de los objetivos.
+          //-   .tarjeta.color-terciario.p-3.mb-4
+          //-     .h5.mb-2 Control
+          //-     p Y por último, en esta fase se encuentra la etapa de #[b control] donde se consolidan resultados y se evalúan si estos están acordes con lo planeado. De no ser así, se detectan desviaciones y sus causas, así como imprevistos para retroalimentar el proceso administrativo y posteriormente, realizar una actualización a la planeación y a las demás fases, de ser necesario, cumpliendo con su esencia de ser un proceso sistémico que se encuentra en constante renovación.
+          //-   .tarjeta.color-primario.p-3.mb-4
+          //-     p #[b Arte]
+          //-     p La administración es considerada un arte, pues es fundamental también reconocer que depende de cada administrador, el sello que le imprime a su gestión y dirección en la empresa. Esto obedece a que cada individuo tiene una personalidad definida y de esto depende que la administración a pesar de ser una ciencia con un planteamiento claro, sea percibida desde diferentes enfoques o maneras.
     
     .row.align-items-center.justify-content-center.mb-4
       .col-md-6.col-12(data-aos="fade-right") 
@@ -365,22 +365,22 @@
           .col-12.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img_11.png', alt='')
-          .col-12
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Estado de la situación financiera de la empresa
-              p Estado financiero que se consolida en la estructura financiera de la organización, donde en el lado izquierdo se encuentran los rubros correspondientes a los activos y en el lado derecho se muestra cómo han sido financiados, dejando claro si ha sido a través de endeudamiento o con recursos propios.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Estado de resultados
-              p Mide los beneficios obtenidos luego de consolidar ingresos, costos y gastos de una actividad económica en un periodo de tiempo determinado.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Flujos de efectivo
-              p Está constituido por tres categorías de actividades operativas, de financiación y de capital.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Estructura de capital
-              p Se define basado en el costo de capital del proyecto o alternativa de inversión, la cual debe necesariamente generar un VPN que sea atractivo a fin de que los proyectos generen un mayor valor a la empresa; entre más alternativas existan con estos resultados, la empresa se encuentra en el camino de crecimiento y generación de valor EVA, produciendo riqueza.
-            .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
-              .h5.mb-2 Otras variables
-              p Siendo conscientes de que la empresa toma decisiones de inversión en otros aspectos que garantizan su operación, se hace necesario que se estudie el punto de equilibrio, análisis de costos, riesgos y rendimientos, aspectos cualitativos como el capital intelectual, el #[em superávit] y el medio ambiente.
+          //- .col-12
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Estado de la situación financiera de la empresa
+          //-     p Estado financiero que se consolida en la estructura financiera de la organización, donde en el lado izquierdo se encuentran los rubros correspondientes a los activos y en el lado derecho se muestra cómo han sido financiados, dejando claro si ha sido a través de endeudamiento o con recursos propios.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Estado de resultados
+          //-     p Mide los beneficios obtenidos luego de consolidar ingresos, costos y gastos de una actividad económica en un periodo de tiempo determinado.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Flujos de efectivo
+          //-     p Está constituido por tres categorías de actividades operativas, de financiación y de capital.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Estructura de capital
+          //-     p Se define basado en el costo de capital del proyecto o alternativa de inversión, la cual debe necesariamente generar un VPN que sea atractivo a fin de que los proyectos generen un mayor valor a la empresa; entre más alternativas existan con estos resultados, la empresa se encuentra en el camino de crecimiento y generación de valor EVA, produciendo riqueza.
+          //-   .tarjeta.color-primario.p-3.mb-4(data-aos="zoom-in-down")
+          //-     .h5.mb-2 Otras variables
+          //-     p Siendo conscientes de que la empresa toma decisiones de inversión en otros aspectos que garantizan su operación, se hace necesario que se estudie el punto de equilibrio, análisis de costos, riesgos y rendimientos, aspectos cualitativos como el capital intelectual, el #[em superávit] y el medio ambiente.
       
       .col-12.col-md-10(data-aos="zoom-in-down")
         .cajon.color-primario.p-4

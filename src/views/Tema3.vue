@@ -143,14 +143,26 @@
           figure
             img(src='@/assets/curso/temas/tema3/img_3.svg', alt='')
             figcaption Nota. Mapa mental del financiamiento hacia la inversión. Adaptado de Pacheco (2020). 
+        .col-12.d-block.d-md-none
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_PresupuestoFinanciación.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p #[b Descargar.] Gráfica de presupuesto de financiación
         .col-lg-10.col-12
           p Este presupuesto pretende validar o evaluar la estrategia de financiación o de provisión de recursos financieros más apropiada para la organización. De esta manera, si la empresa adquiere una obligación financiera para embarcarse en un proyecto de inversión debe tener la capacidad de asumir el servicio a la deuda o si los socios son quienes aportan el capital, debe dejarse claro los riesgos que se enfrentan y el nivel de seguridad que puede brindar la entidad con cierta propuesta de financiación.
           p La figura expone que tanto proveedores como entidades financieras y los aportes a capital, son beneficios generados a la empresa mediante la estrategia de financiación y se constituyen en fuentes de financiamiento; estas a su vez tienen un costo por el servicio a la empresa o costo de capital. Es importante anotar que existen recursos de generación interna o GIR. Estos son todos aquellos conceptos que no representan salida o erogaciones de dinero; pero que son descontados, como lo es el caso de la depreciación, que cuantifica el desgaste de los activos en la empresa.
-      .row.align-items-center.justify-content-center(titulo="Presupuesto de financiación")
+      .row.align-items-center.justify-content-center(titulo="Presupuesto de capital")
         .col-lg-10.col-12.mb-4.mb-md-3
           figure
             img(src='@/assets/curso/temas/tema3/img_4.svg', alt='')
             figcaption Nota. Mapa mental del impacto de flujo. Adaptado de Pacheco (2020). 
+        .col-12.d-block.d-md-none
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_PresupuestoCapital.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p #[b Descargar.] Gráfica de presupuesto de capital
         .col-lg-10.col-12
             p Este presupuesto se elabora con el fin de evaluar cuáles de las opciones al alcance de la empresa son más favorables para su capitalización. 
             p Los recursos provenientes por vía de financiación, deben ser utilizados especialmente en capital de trabajo de ágil circulación o de fácil recuperación, de circulación baja o lenta. Se refiere a la generación de recursos internos como la depreciación, la amortización y los dividendos por cancelar, y el capital de trabajo intangible o capital intelectual con el cual se aplican excelentes estrategias y se logran resultados exitosos.
