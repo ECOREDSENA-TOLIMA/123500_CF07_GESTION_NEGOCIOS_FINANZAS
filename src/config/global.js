@@ -323,7 +323,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
