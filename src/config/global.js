@@ -247,13 +247,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Equipo',
+          cargo: 'Líder Ecosistema de Recursos Educativos Digitales',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Responsable de Línea de Producción Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -262,60 +262,60 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesoría Metodológica y Pedagógica',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Experta Temática',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Miroslava González Hernández',
-          cargo: 'Diseño y Evaluación Instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Asesoría Metodológica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Corrección de Estilo',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          cargo: 'Correctora de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Evaluación Instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        {
-          nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Producción Audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción Audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
+        // {
+        //   nombre: 'Ernesto Navarro Jaimes',
+        //   cargo: 'Producción Audiovisual',
+        //   centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        // },
+        // {
+        //   nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        //   cargo: 'Producción Audiovisual',
+        //   centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        // },
         {
           nombre: 'José Jaime Luis Tang Pinzón',
-          cargo: 'Diseño Web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oscar Daniel Espitia Marín',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -324,13 +324,13 @@ export default {
       autores: [
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Evaluadora de Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación de Recursos Educativos Digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Validador y Vinculador de Recursos Educativos Digitales LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

@@ -45,7 +45,7 @@
               figure
                 img(src="@/assets/curso/temas/tema3/conectada_03.svg", alt="alt").img100
             .col
-              p Estimar el crecimiento de la empresa según proyección. lo cual requiere de inversión en activos fijos y capital de trabajo, para definirlos es necesario conocer la disponibilidad de efectivo o de recursos financieros con el fin de acudir, solo si es necesario, a la financiación con entidades financieras o contrayendo compromisos con los socios.
+              p Estimar el crecimiento de la empresa según proyección, lo cual requiere de inversión en activos fijos y capital de trabajo, para definirlos es necesario conocer la disponibilidad de efectivo o de recursos financieros con el fin de acudir, solo si es necesario, a la financiación con entidades financieras o contrayendo compromisos con los socios.
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
@@ -187,7 +187,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Tipos de control aplicables al proceso</i>
+          p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Tipos de control aplicables al presupuesto</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig_9a.svg', alt='Imagen que menciona lo relacionado con los tipos de control que son aplicables al presupuesto, estos tipos son: preliminar, retroalimentación, coincidente.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig_9b.svg', alt='Imagen que menciona lo relacionado con los tipos de control que son aplicables al presupuesto, estos tipos son: preliminar, retroalimentación, coincidente.') 
@@ -210,7 +210,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/ico2.svg', alt='')
           h3.text-center Presupuesto como control de eficiencia
-          p Está diseñado sobre escenarios de entornos específicos pero al surgir modificaciones en ellos el presupuesto puede discrepar con esa realidad, por lo que la gerencia financiera deberá decidir las modificaciones o ajustes requeridos, tomando como base el presupuesto proyectado y manteniendo el fin para el cual fue creado.
+          p Está diseñado sobre escenarios de entornos específicos, pero al surgir modificaciones en ellos, el presupuesto puede discrepar con esa realidad, por lo que la gerencia financiera deberá decidir las modificaciones o ajustes requeridos, tomando como base el presupuesto proyectado y manteniendo el fin para el cual fue creado.
 
     Separador
     #t_3_3.titulo-segundo.color-primario(data-aos="fade-right")

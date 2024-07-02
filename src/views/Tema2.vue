@@ -34,8 +34,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Modelo de ejecución financiera</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig_5a.svg', alt='Grafico que explica el proceso del modelo de ejecución financiera, el cual consta de las siguientes etapas y sus procesos característicos son: Fase I.1. Planificación de actividad y presupuesto: definición de POAS. Fase I.2. Planificación financiera: elaboración de flujos financieros. Fase II. Ejecución y análisis: elaboración de estados y análisis. Fase III. Control y decisión: monitoreo y gestión de la decisión.')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig_5b.svg', alt='Grafico que explica el proceso del modelo de ejecución financiera, el cual consta de las siguientes etapas y sus procesos característicos son: Fase I.1. Planificación de actividad y presupuesto: definición de POAS. Fase I.2. Planificación financiera: elaboración de flujos financieros. Fase II. Ejecución y análisis: elaboración de estados y análisis. Fase III. Control y decisión: monitoreo y gestión de la decisión.') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig_5a.svg', alt='Gráfico que explica el proceso del modelo de ejecución financiera, el cual consta de las siguientes etapas y sus procesos característicos son: Fase I.1. Planificación de actividad y presupuesto: definición de POAS. Fase I.2. Planificación financiera: elaboración de flujos financieros. Fase II. Ejecución y análisis: elaboración de estados y análisis. Fase III. Control y decisión: monitoreo y gestión de la decisión.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig_5b.svg', alt='Gráfico que explica el proceso del modelo de ejecución financiera, el cual consta de las siguientes etapas y sus procesos característicos son: Fase I.1. Planificación de actividad y presupuesto: definición de POAS. Fase I.2. Planificación financiera: elaboración de flujos financieros. Fase II. Ejecución y análisis: elaboración de estados y análisis. Fase III. Control y decisión: monitoreo y gestión de la decisión.') 
           figcaption Nota. Adaptado de Terrazas (2009). 
 
     Separador
@@ -158,7 +158,7 @@
           div(x="52%" y="4%" numero="+" tooltip="Clic para abrir recurso")
             p #[b Política de seguimiento y control del presupuesto]
             p Es necesario velar porque se ejecute conforme a lo planeado. Esta tarea se encuentra asignada al grupo de gestión administrativa y financiera, ligado a los procesos de planeación estratégica y de mejora continua, quienes deben monitorear que lo consignado en el presupuesto sea tenido en cuenta por cada área y destinado conforme lo definido, así como que se priorice conforme a las políticas establecidas para implementarlo. 
-            p Su ejecución está a cargo del proceso administrativo y financiero, que es el responsable de aprobar o denegar las solicitudes de recursos para contrataciones sean de personal, de materiales o de inversión. Por último, la revisoría fiscal realiza el seguimiento de la planeación contra la ejecución mediante indicadores, gestión y resultados que promuevan la toma de decisiones.
+            p Su ejecución está a cargo del proceso administrativo y financiero, que es el responsable de aprobar o denegar las solicitudes de recursos para contrataciones, sean de personal, de materiales o de inversión. Por último, la revisoría fiscal realiza el seguimiento de la planeación contra la ejecución mediante indicadores, gestión y resultados que promuevan la toma de decisiones.
 
     .row.justify-content-center.d-block.d-md-none.mb-4
       .col-auto(data-aos="fade-left")
