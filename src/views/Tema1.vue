@@ -411,7 +411,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Tipo de informes financieros</i>
+          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Modelo de ejecución financiera</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig_4a.svg', alt='Imagen que menciona los 10 tipos de informes financieros presentes dentro de las proyecciones a realizar.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_4b.svg', alt='Imagen que menciona los 10 tipos de informes financieros presentes dentro de las proyecciones a realizar.') 

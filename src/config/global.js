@@ -247,12 +247,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder Ecosistema de Recursos Educativos Digitales',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de Línea de Producción Tolima',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -262,7 +262,7 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo de Desarrollo Curricular',
+          cargo: 'Asesor Metodológico y Pedagógico',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -283,6 +283,12 @@ export default {
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Correctora de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
@@ -297,16 +303,16 @@ export default {
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        // {
-        //   nombre: 'Ernesto Navarro Jaimes',
-        //   cargo: 'Producción Audiovisual',
-        //   centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        // },
-        // {
-        //   nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        //   cargo: 'Producción Audiovisual',
-        //   centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        // },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animador y Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
         {
           nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador de Contenidos Digitales',
